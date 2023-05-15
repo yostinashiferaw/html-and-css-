@@ -1,0 +1,18 @@
+p {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+  }
+  
+  .p3,
+  .p5,
+  .p8 {
+    background-color: blue;
+  }
+  
+  .p1.transparency,
+  .p2.transparency {
+    opacity: 0.5;
+  }
+  
+  

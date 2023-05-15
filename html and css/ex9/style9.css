@@ -1,0 +1,22 @@
+body {
+    background-color: #a36b6b;
+    color: #000000;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #a36c5e;
+  }
+  
+  h1 {
+    color: #ff0000;
+  }
+  
+  p:first-of-type {
+    color: #ff0000;
+  }
+  
+  p:last-of-type {
+    color: #00008f;
+  }
+  
