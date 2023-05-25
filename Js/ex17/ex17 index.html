@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exercise 17</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Form</h1>
+
+  <form id="myForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="surname">Surname:</label>
+    <input type="text" id="surname" name="surname" required>
+
+    <label for="phone">Telephone number:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <button id="viewData">View data</button>
+  <div id="container">
+    <p>Data:</p>
+    <p id="displayedName"></p>
+    <p id="displayedSurname"></p>
+    <p id="displayedPhone"></p>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
